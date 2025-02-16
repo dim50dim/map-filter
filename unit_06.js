@@ -118,6 +118,13 @@ let a9 = [6, 7, 9];
 let z9 = {}; // {6 : 6, 7: 7, 9: 9}
 
 const f9 = () => {
+  z9 =    a9.reduce((accum,item) => {
+         accum[item] = item;
+         return accum; 
+    },{});
+    console.log(z9);
+    console.log(a9);
+    
 }
 
 // TASK 10
@@ -127,12 +134,17 @@ let a10 = { "hi": 5, "test": 2, "best": 12, "quest": -6 };
 let z10 = {}; // ожидаю {"best" : 12, "quest" : -6};
 
 const f10 = () => {
-
+    for(let key in a10){
+        if(callback10(a10[key]) > 5) {
+            z10[key] = a10[key];
+        }
+    }
+    console.log(z10);
+    
 }
 
 function callback10(elem) {
-    // ваш код
-    // return
+ return Math.abs(elem);
 }
 
 
