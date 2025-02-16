@@ -52,10 +52,16 @@ const f3 = () => {
 
 
 let a4 = [3, -2, 4, 1, 9, -3, 0, 0, 2, -8, 12];
-let a4_res;
+let a4_res = [];
 
 const f4 = () => {
-
+      a4.map(item => {
+        if(item < 0) a4_res.push(0)
+        if(item >= 0) a4_res.push(item)
+            return item;
+      });
+    console.log(a4_res);
+    
 }
 
 // TASK 05
