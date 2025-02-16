@@ -90,7 +90,9 @@ let a7 = [
 let z7 = [];
 
 const f7 = () => {
-
+   z7 = a7.filter(item => item.pass.length <= 6);
+ console.log(z7);
+ 
 }
 
 // TASK 08
