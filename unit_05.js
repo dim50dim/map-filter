@@ -25,7 +25,11 @@ a2[6] = 3;
 let a2_res;
 
 const f2 = () => {
-   
+     a2_res = a2.map(item => {
+        return item * 5;
+     });
+      console.log(a2_res);
+      
 }
 
 // TASK 03
