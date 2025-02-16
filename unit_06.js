@@ -103,6 +103,11 @@ let z8 = [];
 let z8_2 = [];
 
 const f8 = () => {
+  z8 =  a8.filter(item => item % 2 === 0) 
+  z8_2 =  a8.filter(item => item % 2 !== 0) 
+  console.log(z8);
+  console.log(z8_2);
+  
 
 }
 
