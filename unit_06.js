@@ -33,7 +33,11 @@ let a3 = [2, 3, 4, 5, -6, 55, 1, 12, -3, 7, 4, 5, 2];
 let z3 = [];
 
 const f3 = () => {
-
+     a3.filter((item,index) => {
+        if(item > 3) z3.push(index);
+      });
+      console.log(z3);
+      
 }
 
 // TASK 04
