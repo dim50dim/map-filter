@@ -18,7 +18,11 @@ let a2 = [22, 33, 44, 55, 66, 77, 88, 99];
 let z2 = [];
 
 const f2 = () => {
-
+      a2.filter((item,index) => {
+        if(index % 2 === 0) z2.push(item)
+      });
+    console.log(z2);
+    
 }
 
 // TASK 03
