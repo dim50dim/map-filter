@@ -111,7 +111,10 @@ let a8 = [[22, 13, 45], [5, 2], [5, 3, 6, 7, 9]];
 let a8_res;
 
 const f8 = () => {
-
+   a8_res = a8.map(item => item.reduce((accum,item) => accum += item))
+       console.log(a8);
+       console.log(a8_res);
+       
 }
 
 // TASK 09
