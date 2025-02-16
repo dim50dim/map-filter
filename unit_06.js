@@ -72,7 +72,9 @@ let a6 = [[4, 5], [6, 7, 3], [12, 5], [47, 3, 54, 62], [5]]; // ожидаю [[6
 let z6 = [];
 
 const f6 = () => {
-
+    z6 = a6.filter(item => item.reduce((accum,item) => accum += item) % 2 === 0 )
+    console.log(z6);
+    
 }
 
 // TASK 07
