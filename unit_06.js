@@ -60,7 +60,9 @@ let a5 = [[4, 5], [6, 7, 8], [12, 5], [47, 3, 54, 62], [5]]; // ожидаю [[4
 let z5 = [];
 
 const f5 = () => {
-
+      z5 = a5.filter(item => item.includes(5))
+   console.log(z5);
+                 
 }
 
 // TASK 06
