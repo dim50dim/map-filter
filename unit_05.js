@@ -23,7 +23,9 @@ a2[6] = 3;
 let a2_res;
 
 const f2 = () => {
-
+    a2_res = a2.map(item => item * 4);
+    console.log(a2_res);
+    
 }
 
 // TASK 03
@@ -35,12 +37,14 @@ let a3 = [2, 3, 4, 5, 6];
 let a3_res;
 
 const f3 = () => {
-    // a3_res = a3.map( (item, index) => {
-    //         if (index == 2) {
-    // a3[3] = 100;
-    // }
-    // тут ваши вычисления
-    //});
+    a3_res = a3.map( (item, index) => {
+            if (index == 2) {
+    a3[3] = 100;
+    }
+       return item * 5;
+    });
+    console.log(a3_res);
+    
 }
 
 // TASK 04
