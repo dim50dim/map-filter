@@ -6,7 +6,9 @@ let a1 = [5, 6, 7];
 let a1_res;
 
 const f1 = () => {
-    a1_res  = a1.map(item => item * 3)
+    a1_res  = a1.map(item => {
+        return item * 3
+    })
     console.log(a1_res);
     
 }
@@ -23,7 +25,7 @@ a2[6] = 3;
 let a2_res;
 
 const f2 = () => {
-
+   
 }
 
 // TASK 03
