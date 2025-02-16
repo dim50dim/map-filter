@@ -71,7 +71,10 @@ let a5 = [55, 66, 77];
 let a5_res;
 
 const f5 = () => {
-
+   a5_res = a5.map((item,index) => index);
+   console.log(a5);
+   console.log(a5_res);
+   
 }
 
 // TASK 06
