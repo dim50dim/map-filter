@@ -6,7 +6,9 @@ let a1 = [5, 6, 7, 8, 44, 21, 43, 26, 78, 100, -2, 0, 17];
 let z1 = [];
 
 const f1 = () => {
-
+   z1 = a1.filter(item => item % 2);
+   console.log(z1);
+   
 }
 
 // TASK 02
