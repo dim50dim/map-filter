@@ -88,7 +88,10 @@ a6[6] = 3;
 let a6_res;
 
 const f6 = () => {
-
+         a6_res = a6.map((item,index) => index);
+         console.log(a6);
+         console.log(a6_res);
+         
 }
 
 // TASK 07
