@@ -48,7 +48,9 @@ let a4 = [3, -2, 4, 1, '9', -3, '0', true, 2, -8, undefined];
 let z4 = [];
 
 const f4 = () => {
-
+    z4 = a4.filter(item => typeof item !== 'number');
+    console.log(z4);
+    
 }
 
 // TASK 05
