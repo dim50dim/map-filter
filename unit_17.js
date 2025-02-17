@@ -79,7 +79,12 @@ document.querySelector('.b-4').onclick = () => {
 let a5 = [3, 14, 15, 92, '6'];
 
 function t5() {
-
+   return a5_res = a5.filter(item =>{
+    if(typeof item === 'number' && item % 2 === 0){
+        return item;
+    }
+   });
+   
 }
 
 document.querySelector('.b-5').onclick = () => {
