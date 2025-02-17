@@ -113,7 +113,7 @@ document.querySelector('.b-6').onclick = () => {
 let a7 = ['Alto`s Adventure', 'Angry Birds 2', 'Anno 2205', 'Assassin`s Creed Chronicles'];
 
 function t7() {
-
+     return a7_res = a7.map(item => item.toLowerCase());
 }
 
 document.querySelector('.b-7').onclick = () => {
