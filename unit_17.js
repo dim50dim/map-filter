@@ -99,7 +99,7 @@ document.querySelector('.b-5').onclick = () => {
 let a6 = [3, 14, 15, 92, "6", "5", "hello", 32];
 
 function t6() {
-
+       return a6_res = a6.filter(item => item > 14 && typeof item === 'number')
 }
 
 document.querySelector('.b-6').onclick = () => {
