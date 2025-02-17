@@ -126,7 +126,10 @@ document.querySelector('.b-7').onclick = () => {
 let a8 = [3, 14, 15, 92, 7, 32, 59];
 
 function t8() {
-
+    a8.filter((item , index) => {
+        if(item % 2 === 0) a8_res.push(index)
+    });
+return a8_res;
 }
 
 document.querySelector('.b-8').onclick = () => {
