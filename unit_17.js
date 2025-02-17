@@ -144,7 +144,9 @@ document.querySelector('.b-8').onclick = () => {
 let a9 = ['Quantum Break', 'Gears of War 4', 'Mass Effect: Andromeda', 'Far Cry Primal'];
 
 function t9() {
-
+    let arr = [];
+  a9.forEach(item => arr.push(item.toLowerCase()));
+  return arr;
 }
 
 document.querySelector('.b-9').onclick = () => {
